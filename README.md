@@ -1,1 +1,1 @@
-# bye404.github.io
+# bye404
