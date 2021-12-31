@@ -4,7 +4,6 @@ package com.bye404.demo.algorithm.linkedlist.model;
  * Node
  *
  * @author liujia
- * @date 2021-12-30 17:15
  */
 public class Node {
 

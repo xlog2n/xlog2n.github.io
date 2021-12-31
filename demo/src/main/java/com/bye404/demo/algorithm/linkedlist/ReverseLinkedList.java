@@ -39,6 +39,24 @@ public class ReverseLinkedList {
         return prev;
     }
 
+    // 分组反转（非递归方式）
+    private static Node reverse2(Node head, int k) {
+        Node prev = null;
+        Node groupPrev = head;
+        int i = 0;
+        while (head != null) {
+            Node next = head.next;
+            head.next = prev;
+            prev = head;
+            head = next;
+            if (++i % k == 0) {
+                groupPrev.next = reverse(head, k);
+                break;
+            }
+        }
+        return prev;
+    }
+
     public static void main(String[] args) {
         Node a = Node.create(10);
         Node.print("反转链表前：", a);
