@@ -4,6 +4,7 @@ import com.bye404.demo.algorithm.linkedlist.model.Node;
 
 /**
  * FastSlowPointer
+ * 快慢指针
  *
  * @author liujia
  */
@@ -22,7 +23,16 @@ public class FastSlowPointer {
 
     // 检查链表是否含有环形（环形不仅仅是首尾相接，也有可能是尾部和中间某个节点相接）
     private static boolean hasCycle(Node head) {
+        Node fast = head;
+        Node slow = head;
 
+        while (fast != null && fast.next != null && slow != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (fast == slow) {
+                return true;
+            }
+        }
         return false;
     }
 
@@ -34,11 +44,11 @@ public class FastSlowPointer {
 
         System.out.println("=======================================================");
 
-        Node c1 = Node.create(2);
-        Node c2 = Node.create(7);
+        Node c1 = Node.createWithPrefix(2, "A");
+        Node c2 = Node.createWithPrefix(7, "B");
         c1.next.next = c2;
         c2.next.next.next.next.next.next.next = c2;
-        Node.printCycle("含有环形的链表：", c1, 9);
+        Node.printCycle("含有环形的链表：", c1, 20);
         System.out.println("检查该链表是否含有环形：" + hasCycle(c1));
     }
 

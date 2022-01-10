@@ -23,6 +23,14 @@ public class Node {
         return temp;
     }
 
+    public static Node createWithPrefix(int size, String prefix) {
+        Node temp = null;
+        for (int i = size; i > 0; i--) {
+            temp = new Node(prefix+i, temp);
+        }
+        return temp;
+    }
+
     // 打印给定的链表
     public static void print(String message, Node head) {
         System.out.println(message);
