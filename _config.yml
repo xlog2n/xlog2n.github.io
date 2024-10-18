@@ -30,3 +30,6 @@ plugins:
 # Custom variables
 owner : "SomeHacker"
 year : "2020"
+
+kramdown:
+  math_engine: MathJax
