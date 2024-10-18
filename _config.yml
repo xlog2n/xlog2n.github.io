@@ -32,4 +32,4 @@ owner : "SomeHacker"
 year : "2020"
 
 kramdown:
-  math_engine: MathJax
+  math_engine: null
