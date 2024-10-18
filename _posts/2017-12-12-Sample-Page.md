@@ -14,7 +14,9 @@ There should be whitespace between paragraphs. We recommend including a README, 
 # [](#header-1)Header 1
 
 This is $\sqrt{2^3}$ a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-$$\sqrt{2^3}$$
+```math
+\sqrt{2^3}
+```
 
 asdflkajsdf
 
