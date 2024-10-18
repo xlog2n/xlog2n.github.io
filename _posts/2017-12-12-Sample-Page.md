@@ -19,8 +19,7 @@ This is $\sqrt{2^3}$ a normal paragraph following a header. GitHub is a code hos
 ```
 
 asdflkajsdf
-
-\sqrt{2^3}
+$\sqrt{2^3}$
 
 ## [](#header-2)Header 2
 
