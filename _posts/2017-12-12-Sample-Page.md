@@ -24,13 +24,13 @@ $\sqrt{2^3}$
 asdflkasjdfkljadlkfsjasdf
 $$\sqrt{2^3}$$
 
-使用小括号\(\sqrt{2^8}\)
+使用小括号(\sqrt{2^8})
 
 使用小括号换行
-\(\sqrt{2^8}\)
+(\sqrt{2^8})
 
 使用中括号
-\[\sqrt(2^11011}\]
+[\sqrt(2^11011}]
 
 ## [](#header-2)Header 2
 
