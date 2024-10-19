@@ -24,6 +24,14 @@ $\sqrt{2^3}$
 asdflkasjdfkljadlkfsjasdf
 $$\sqrt{2^3}$$
 
+使用小括号\(\sqrt{2^8}\)
+
+使用小括号换行
+\(\sqrt{2^8}\)
+
+使用中括号
+\[\sqrt(2^11011}\]
+
 ## [](#header-2)Header 2
 
 > This is a blockquote following a header.
