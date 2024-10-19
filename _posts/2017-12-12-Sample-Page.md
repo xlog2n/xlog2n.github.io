@@ -23,8 +23,9 @@ asdflkajsdf
 $\sqrt{2^3}$
 
 asdflkasjdfkljadlkfsjasdf
-
-$$\sqrt{2^3}$$
+$$
+\sqrt{2^3}
+$$
 
 使用小括号(\sqrt{2^8})
 
