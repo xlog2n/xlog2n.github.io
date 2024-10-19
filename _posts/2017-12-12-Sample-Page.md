@@ -21,6 +21,9 @@ This is $\sqrt{2^3}$ a normal paragraph following a header. GitHub is a code hos
 asdflkajsdf
 $\sqrt{2^3}$
 
+asdflkasjdfkljadlkfsjasdf
+$$\sqrt{2^3}$$
+
 ## [](#header-2)Header 2
 
 > This is a blockquote following a header.
