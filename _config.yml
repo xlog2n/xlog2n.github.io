@@ -1,9 +1,9 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: Xlog2n-Blog
+description: "I'm a passionate artist who loves to draw and create. Yes, I code so much that I hardly have time to draw."
 author:
-  name: "SomeHacker"
-  email: "someone@somewebsite.somedomain"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  name: "Xlog2n"
+  email: "xlog2n@gmail.com"
+  url: "xlog2n.github.io"
 
 baseurl: /
 
@@ -28,6 +28,6 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "SomeHacker"
-year : "2020"
+owner : "xlog2n"
+year : "2024"
 
