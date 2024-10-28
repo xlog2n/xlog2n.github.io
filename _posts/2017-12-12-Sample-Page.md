@@ -14,14 +14,11 @@ There should be whitespace between paragraphs. We recommend including a README, 
 # [](#header-1)Header 1
 
 This is $\sqrt{2^3}$ a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-```math
-$$\sqrt{2^3}$$
-```
 
-asdflkajsdf
+单个$符号，但是不在一行
 $\sqrt{2^3}$
 
-asdflkasjdfkljadlkfsjasdfaaaaaaaaaaaaaaaa
+双个$符号，但是不在一行，有空行
 
 $$
 \sqrt{2^3}
@@ -29,18 +26,9 @@ $$
 
 使用小括号两个斜杠\\(\sqrt{2^8}\\)
 
-使用小括号一个斜杠
-\(\sqrt{2^8}\)
-
-使用中括号两个斜杠
-\\[
-\sqrt(2^4}
-\\]
-
-使用中括号
-
+双个$符号，但是不在一行，无空行
 $$
-\sqrt(2^4}
+\sqrt{2^4}
 $$
 
 ## [](#header-2)Header 2
