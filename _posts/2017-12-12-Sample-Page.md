@@ -15,17 +15,15 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 This is $\sqrt{2^3}$ a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-单个$符号，但是不在一行$\sqrt{2^3}$
+单个美元符号，但是不在一行$\sqrt{2^3}$
 
-双个$符号，但是不在一行，有空行
+双个美元符号，但是不在一行，有空行
 
 $$
 \sqrt{2^3}
 $$
 
-使用小括号两个斜杠\\(\sqrt{2^8}\\)
-
-双个$符号，但是不在一行，无空行
+双个美元符号，但是不在一行，无空行
 
 $$
 \sqrt{2^4}
